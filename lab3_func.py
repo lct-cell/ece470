@@ -19,14 +19,14 @@ def blob_search_init():
 
 
     # Filter by Area.
-    params.filterByArea = False
-    params.minArea = 0.1
-    params.maxArea = 7
+    params.filterByArea = True
+    params.minArea = 6
+    #params.maxArea = 7
 
 
     # Filter by Circularity
     params.filterByCircularity = False
-    params.minCircularity = 0.3
+    params.minCircularity = 0.5
 
 
     # Filter by Inerita
@@ -63,8 +63,8 @@ def blob_search(image, detector):
 
     # Find lower & upper for orange
     
-    lower = (5,210,140)      # blue lower
-    upper = (35,255,200)   # blue upper
+    lower = (5,210,170)      # blue lower
+    upper = (20,255,220)   # blue upper
 
     ############################# Your Code Ends Here #############################
 
