@@ -49,3 +49,4 @@ theta3 = pi-phi
 theta4 = -(theta3+theta2)
 
 thetas = [rad2deg(theta1) rad2deg(theta2) rad2deg(theta3) rad2deg(theta4) rad2deg(theta5) rad2deg(theta6)]
+trad = [theta1 theta2 theta3 theta4 theta5 theta6 ]
